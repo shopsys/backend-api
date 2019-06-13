@@ -1,0 +1,17 @@
+language: php
+
+php:
+    - 7.2
+    - 7.3
+
+cache:
+    directories:
+        - ~/.composer/cache
+
+install:
+    - composer install
+
+script:
+    - php vendor/bin/parallel-lint ./src ./tests
+    - php vendor/bin/ecs check ./src ./tests
+    - php vendor/bin/phpunit tests
