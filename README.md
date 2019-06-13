@@ -36,7 +36,7 @@ public function registerBundles()
 [Documentation](https://github.com/shopsys/shopsys/docs/api/introduction-to-backend-api.md) can be found in our monorepo repository.
 
 ## Contributing
-Thank you for your contributions to Shopsys Read Model package.
+Thank you for your contributions to Shopsys Backend API package.
 Together we are making Shopsys Framework better.
 
 This repository is READ-ONLY.

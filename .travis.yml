@@ -8,6 +8,9 @@ cache:
     directories:
         - ~/.composer/cache
 
+before_install:
+    - echo "extension = redis.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
+
 install:
     - composer install
 
