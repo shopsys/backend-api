@@ -19,7 +19,6 @@ composer require shopsys/backend-api
 ### Register
 For the bundles to be loaded in your application you need to register them in `registerBundles()` method in the `app/AppKernel.php` file of your project:
 ```diff
-<?php
 // app/AppKernel.php
 
 public function registerBundles()
