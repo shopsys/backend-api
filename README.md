@@ -33,7 +33,7 @@ public function registerBundles()
 ```
 
 ## Documentation
-[Documentation](https://github.com/shopsys/shopsys/docs/api/introduction-to-backend-api.md) can be found in our monorepo repository.
+[Documentation](https://github.com/shopsys/shopsys/docs/backend-api/introduction-to-backend-api.md) can be found in our monorepo repository.
 
 ## Contributing
 Thank you for your contributions to Shopsys Backend API package.
