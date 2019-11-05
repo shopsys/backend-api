@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Tests\ShopBundle\Smoke;
+namespace Tests\App\Smoke;
 
-use Shopsys\ShopBundle\DataFixtures\Demo\ProductDataFixture;
-use Tests\ShopBundle\Test\OauthTestCase;
+use App\DataFixtures\Demo\ProductDataFixture;
+use Tests\App\Test\OauthTestCase;
 
 /**
  * This test must not extend TransactionFunctionalTestCase because it mustn't use transaction
