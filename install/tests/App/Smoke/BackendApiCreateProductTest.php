@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Tests\ShopBundle\Smoke;
+namespace Tests\App\Smoke;
 
 use Ramsey\Uuid\Uuid;
 use Shopsys\FrameworkBundle\Component\Domain\Domain;
-use Tests\ShopBundle\Test\OauthTestCase;
+use Tests\App\Test\OauthTestCase;
 
 /**
  * This test must not extend TransactionFunctionalTestCase because it mustn't use transaction

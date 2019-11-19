@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tests\ShopBundle\Test;
+namespace Tests\App\Test;
 
 use Doctrine\DBAL\Exception\UniqueConstraintViolationException;
 use Shopsys\FrameworkBundle\Component\Router\CurrentDomainRouter;

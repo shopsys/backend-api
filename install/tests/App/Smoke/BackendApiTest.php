@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tests\ShopBundle\Smoke;
+namespace Tests\App\Smoke;
 
+use App\DataFixtures\Demo\ProductDataFixture;
 use DateTime;
 use Shopsys\FrameworkBundle\Component\Domain\Domain;
-use Shopsys\ShopBundle\DataFixtures\Demo\ProductDataFixture;
-use Tests\ShopBundle\Test\OauthTestCase;
+use Tests\App\Test\OauthTestCase;
 use Webmozart\Assert\Assert;
 
 /**
