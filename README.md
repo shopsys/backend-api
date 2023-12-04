@@ -1,5 +1,8 @@
 # Shopsys Backend API
 
+## Abandoned
+**This package is abandoned and no longer maintained.**
+
 [![Build Status](https://travis-ci.org/shopsys/backend-api.svg?branch=master)](https://travis-ci.org/shopsys/backend-api)
 [![Downloads](https://img.shields.io/packagist/dt/shopsys/backend-api.svg)](https://packagist.org/packages/shopsys/backend-api)
 
